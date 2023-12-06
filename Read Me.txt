@@ -1,0 +1,34 @@
+Open Anaconda Prompt:
+Open the Anaconda Prompt on your system.
+
+Navigate to Your Project Directory:
+Use the cd command to navigate to the directory where your app.py file is located. For example:
+
+bash
+Copy code
+cd path\to\your\project
+Activate Your Environment (if applicable):
+If you are using a virtual environment, activate it using:
+
+conda activate your_environment_name
+
+Set the Flask App:
+Set the FLASK_APP environment variable to your app.py file. Use the following command:
+
+
+set FLASK_APP=app.py
+
+Set the Environment (Optional):
+Set the environment to development for debugging purposes (optional):
+
+
+set FLASK_ENV=development
+
+Run the Flask App:
+Finally, run the Flask app using the following command:
+
+
+flask run
+
+Access the App:
+Once the app is running, open your web browser and go to the address provided in the prompt. By default, it should be http://127.0.0.1:5000/.
